@@ -12,7 +12,9 @@
 
 /* End Variables */
 
-
+html {
+    scroll-behavior: smooth;
+}
 * {
     -webkit-box-sizing: border-box;
     -moz-box-sizing: border-box;
@@ -491,6 +493,9 @@ body {
     .contact .info .label,
     .contact .info .link {
         font-size: 25px;
+    }
+    .social {
+        flex-direction: column;
     }
 }
 
